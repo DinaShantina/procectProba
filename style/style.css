@@ -1,0 +1,1227 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: background-color .5s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bgMain {
+    background-image: -webkit-linear-gradient(100deg, rgb(255, 255, 255) 78%, rgb(67, 23, 129) 78.06%);
+    background: -moz-linear-gradient(100deg, rgb(255, 255, 255) 81.198%, rgb(67, 23, 129) 78.06%);
+    padding-top: 5%;
+}
+
+.text {
+    transition: transform .2s;
+    margin-bottom: 18%;
+}
+
+.text:hover {
+    transform: scale(1.02);
+}
+
+.sidebar-nav li {
+    border-bottom: 1px solid grey;
+}
+
+.nav>li>a:hover {
+    color: rgb(247, 204, 14);
+    background-color: white;
+}
+
+.yellowButton {
+    background-color: rgb(247, 204, 14);
+    word-break: keep-all;
+    color: black;
+}
+
+.yellowBlack {
+    background-color: black;
+    color: rgb(247, 204, 14);
+}
+
+.btnBrainster {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.4%;
+    margin-bottom: 1.4%;
+    padding: 10px 7px 10px 7px;
+}
+
+/* Header */
+
+.textWhite {
+    color: white;
+}
+
+.spanYellow a {
+    color: rgb(247, 204, 14);
+    font-weight: bold;
+}
+
+.spanYellow a:hover {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.spanPurple a {
+    color: #431781;
+    font-weight: bold;
+}
+
+.mainP {
+    font-size: 2rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.mainHeader {
+    font-size: 400%;
+}
+
+.py-1 {
+    padding-top: 3%;
+}
+
+.my-1 {
+    margin-bottom: 3%;
+}
+
+/* Main content */
+
+.bgGames img {
+    width: 70%;
+}
+
+/* Card */
+
+.cardFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconProperties {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text a:hover {
+    text-decoration: none;
+    color: #431781;
+}
+
+.IconBg2 {
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.imgCard {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.iconProperties:hover {
+    background-color: rgb(67, 23, 129);
+}
+
+.py-x {
+    padding-left: 2%;
+}
+
+.py-x1 {
+    padding-left: 3.5%;
+}
+
+.text a {
+    color: black;
+}
+
+.iconHover:hover {
+    background-color: rgb(67, 23, 129);
+}
+
+.mainPhoto {
+    padding: 5%;
+}
+
+.mainPhoto:hover {
+    -webkit-animation: rotate-center 0.8s ease-in-out both;
+    animation: rotate-center 0.8s ease-in-out both;
+    overflow: hidden;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.bgGames {
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear, ease-in;
+    transition-delay: 0s, 1s;
+    overflow: hidden;
+}
+
+.bgGames:hover {
+    background-color: rgb(67, 23, 129);
+}
+
+.cardText {
+    padding: 2%;
+}
+
+.bgWhite {
+    background-color: white;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px -1px 35px -6px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px -1px 35px -6px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px -1px 35px -6px rgba(0, 0, 0, 0.66);
+}
+
+.spanInovacii {
+    color: rgb(69, 69, 233);
+    font-weight: bold;
+}
+
+.noWhiteSpace {
+    white-space: nowrap;
+    font-size: 110%;
+}
+
+.spanVremetranje {
+    font-weight: bold;
+}
+
+.pTime {
+    /* margin-left: 6%; */
+    padding: 0 0 5% 8.7%;
+}
+
+/* Purple Down Diagonal PROVERI GO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.header__bg {
+    background-image: -webkit-linear-gradient(100deg, rgb(67, 23, 129) 44%, rgb(255, 255, 255) 44.15%);
+    color: white;
+    margin-top: -50%;
+    padding-top: 49%;
+}
+
+.textPurple {
+    margin-top: 2%;
+}
+
+.my-4 {
+    margin-bottom: 3%;
+}
+
+/* -------------Proba New Side Bar-------------- */
+
+.navBar {
+    position: fixed;
+    top: 0;
+    /* height: 61px; */
+    background-color: rgb(67, 23, 129);
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    padding: 0.5% 0 0.1% 0;
+    z-index: 99999;
+}
+
+.header {
+    width: 25%;
+}
+
+.logo {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 0.5%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo a {
+    width: 20%;
+}
+
+.buttonS {
+    width: 25%;
+}
+
+.flexA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #431781;
+    color: rgb(247, 204, 14);
+    margin-bottom: 2%;
+    /* padding: 10px 15px; */
+    border: none;
+}
+
+.sideLogo {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    margin-top: 13px;
+    width: 30%;
+}
+
+.modal.left .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+
+.modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-open {
+    padding-right: 0px !important;
+    z-index: 9999999999;
+}
+
+.modal-open .navBar {
+    z-index: 1;
+}
+
+.sidebar-nav li {
+    border-bottom: 1px solid grey;
+}
+
+.nav>li>a {
+    padding: 20px 8px 5px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* ------------REGISTRATION----------- */
+
+.purpleContactBg {
+    margin-top: 5%;
+    background-color: transparent;
+    padding: 5.8% 0 5.8% 0;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+}
+
+.pTextForm {
+    font-size: 120%;
+}
+
+.blackBg {
+    background-color: black;
+    background-image: url(../images/register1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.TextBgRegistration {
+    background-color: rgba(247, 204, 14);
+    box-shadow: -1px 1px 38px -3px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.padSubmit {
+    padding: 2% 5% 2% 5%;
+    display: block;
+    margin-top: 10px;
+}
+
+textarea {
+    color: black;
+    margin-top: 3%;
+}
+
+form {
+    padding: 3% 5%;
+    outline-offset: 5px;
+}
+
+.textYellow {
+    color: black;
+}
+
+.headerYellow {
+    padding-left: 35px;
+    font-size: 292%;
+}
+
+/* -------ABOUT US------- */
+
+.bgAbout {
+    background: url("../images/bgAboutUs1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-blend-mode: lighten; */
+    background-position: right center;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+}
+
+.aboutP {
+    font-size: 140.06%;
+}
+
+.TextBgAbout {
+    margin-top: 3%;
+    background-color: rgba(247, 204, 14, 0.8);
+    padding: 4.15% 3% 4.15% 3%;
+    /* box-shadow: -1px 1px 38px -3px rgba(0, 0, 0, 0.34); */
+}
+
+.spanPurple a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.imgAbout {
+    /* opacity: 0.7; */
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    padding-top: 50%;
+    /* background-blend-mode: lighten; */
+    width: 100%
+}
+
+/*<------------ FOOTER ------------> */
+
+.navBar2 {
+    width: 100%;
+    justify-content: space-around;
+    padding: 1% 0 1% 0;
+}
+
+.iconsFont {
+    font-size: 170%;
+}
+
+.tileH2 {
+    font-size: 180%;
+    color: white;
+}
+
+.purpleNav {
+    background-color: rgb(67, 23, 129);
+}
+
+.my-NavDown {
+    margin-top: -1%;
+}
+
+.links {
+    width: 25%;
+}
+
+.list {
+    width: 25%;
+}
+
+/* Ako smenam % ne e dobro */
+
+.list li a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(247, 204, 14);
+    cursor: pointer;
+}
+
+/* -------------------- */
+
+.links a {
+    margin-left: 10%;
+    color: rgb(247, 204, 14);
+}
+
+.flexAb {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.purpleNav2 {
+    background-color: black;
+}
+
+select option {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+textarea {
+    color: white!important;
+}
+
+/* CONTACT US */
+
+.contactBg {
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 9px 6px 19px -2px rgba(0, 0, 0, 0.18);
+    /* height: 90vh; */
+}
+
+.bgText a {
+    color: black;
+}
+
+.bgText a:hover {
+    color: #431781;
+    text-decoration: none;
+}
+
+.contactForm {
+    margin-top: 15%;
+    /* background-color: white; */
+    background-color: rgba(247, 204, 14, 0.6);
+    padding: 26% 5% 37% 5%;
+}
+
+.bgText {
+    background-color: none;
+    box-shadow: 9px 6px 19px -2px rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(247, 204, 14);
+    color: black;
+    font-weight: bold;
+}
+
+.imgFlex {
+    margin: 0 auto;
+}
+
+/* SINGLE CARD 1 --------> */
+
+.mainPhotoSingle {
+    background-image: -webkit-linear-gradient(100deg, rgb(255, 255, 255) 35.7%, rgb(0, 0, 0) 35.9%);
+    background: -moz-linear-gradient(100deg, rgb(255, 255, 255) 81.198%, rgb(67, 23, 129) 78.06%);
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 20%;
+    margin-top: 4%;
+}
+
+.cardBgGrey {
+    box-shadow: 9px 6px 19px -2px rgba(0, 0, 0, 0.18);
+    background-color: rgba(247, 204, 14, 0.6);
+    padding: 2%;
+    border-radius: 10px;
+    background-blend-mode: lighten;
+}
+
+.mainHeaderCard {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.iconsCard {
+    font-size: 200%;
+}
+
+.explanationFlex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 73%;
+}
+
+.textNextIcon p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 120%;
+}
+
+.header__bg2 {
+    background-image: -webkit-linear-gradient(100deg, rgb(67, 23, 129) 66.5%, rgb(255, 255, 255) 66.6%);
+    color: white;
+    padding-top: 18%;
+}
+
+.bgGames {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.mainPhoto:hover {
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both;
+}
+
+.mainHeaderCard2 {
+    font-size: 850%;
+    color: #358CE0;
+}
+
+.ainImgCard {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.rotate-scale-down:hover {
+    -webkit-animation: rotate-scale-down 0.65s linear both;
+    animation: rotate-scale-down 0.65s linear both;
+}
+
+@-webkit-keyframes rotate-scale-down {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        -webkit-transform: scale(0.5) rotateZ(180deg);
+        transform: scale(0.5) rotateZ(180deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-scale-down {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        -webkit-transform: scale(0.5) rotateZ(180deg);
+        transform: scale(0.5) rotateZ(180deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+.sideLogo2 {
+    top: 0;
+    width: 100%;
+}
+
+.mainCardContent {
+    padding-top: 8%;
+    font-size: 150%;
+}
+
+.textUnderline {
+    text-decoration: underline;
+}
+
+/* SINGLE CARD 2 --------> */
+
+.mainHeaderCard2a {
+    font-size: 11rem;
+    color: #358CE0;
+}
+
+.smallerfont {
+    font-size: 70%;
+}
+
+.my-left {
+    margin: 0 0 0 4%;
+}
+
+.header__bg2a {
+    margin-top: 45%;
+}
+
+.boldFont {
+    font-weight: bold;
+}
+
+.navBar3 {
+    margin-top: -1%;
+}
+
+/* SIGN IN */
+
+.bgSignUp {
+    background-image: url(../images/loginA.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-size: 50% 80%; */
+    background-position: right;
+    /* background-repeat: no-repeat; */
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.signForm {
+    margin: 47.3% 0 37.25% 0;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 1px 38px -3px rgba(0, 0, 0, 0.34);
+}
+
+.pSignIn {
+    font-size: 180%;
+    font-weight: bold;
+    margin: 0;
+    color: #431781;
+}
+
+.checkBox {
+    line-height: 20%;
+}
+
+.imgSign {
+    width: 20%;
+}
+
+ul {
+    margin: 0;
+}
+
+.font {
+    font-size: 135%;
+}
+
+@media screen and (max-width: 2569px) {
+    /* ABOUT US */
+    .TextBgAbout {
+        padding: 7% 3% 7% 3%;
+    }
+    .tileH2 {
+        font-size: 220%;
+    }
+    .aboutP {
+        font-size: 170%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .list li a {
+        margin-left: 30px;
+    }
+    .bgMain {
+        padding-top: 7%;
+    }
+    .buttonS {
+        width: 29%;
+    }
+    .marginNav {
+        margin-top: -1%;
+    }
+    /* REGISTRATION */
+    .purpleContactBg {
+        margin-top: 5.6%;
+        padding: 6% 0;
+    }
+    .headerYellow {
+        font-size: 220%;
+    }
+    /* ABOUT US */
+    .tileH2 {
+        font-size: 150%;
+    }
+    .aboutP {
+        font-size: 120%;
+    }
+    .TextBgAbout {
+        padding: 3.02% 3% 3.02% 3%;
+    }
+    /* SIGN IN */
+    .signForm {
+        margin: 51.1% 0;
+    }
+    /* SINGLE PAGE */
+    .mainPhotoSingle {
+        margin-top: 3.5%;
+    }
+    /* .header__bg2 {
+            margin-top: 0%;
+        } */
+    /* SINGLE PAGE 2 */
+    .mainHeaderCard2a {
+        font-size: 500%;
+    }
+    @media screen and (max-width: 1024px) {
+        .btnBrainster {
+            font-size: 80%;
+            margin-top: 1.4%;
+            margin-bottom: 1.4%;
+            padding: 4px 7px 4px 7px;
+        }
+        .buttonS {
+            width: 29%;
+        }
+        .mainHeader {
+            font-size: 300%;
+        }
+        .mainP {
+            font-size: 100%;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .iconProperties {
+            height: 30px;
+            width: 30px;
+        }
+        .noWhiteSpace {
+            font-size: 75%;
+        }
+        .text-Vreme {
+            font-size: 76%;
+        }
+        .pTime {
+            font-size: 70%;
+            margin-left: 2%;
+        }
+        .list li a {
+            margin-left: 5%;
+        }
+        .iconsFont {
+            margin-right: 10%;
+            font-size: 122%;
+        }
+        /* REGISTRATION */
+        .purpleContactBg {
+            margin-top: 10%;
+            padding: 11.87% 0;
+        }
+        .headerYellow {
+            font-size: 150%;
+            padding-left: 22px;
+        }
+        /* ABOUT US */
+        .aboutP {
+            font-size: 110%;
+        }
+        .TextBgAbout {
+            padding: 1.9%;
+        }
+        /* SIGN IN */
+        .signForm {
+            margin: 91.15% 0;
+        }
+        /* SINGLE CARD  */
+        .mainPhotoSingle {
+            margin-top: 5%;
+        }
+        .mainHeaderCard2 {
+            font-size: 450%;
+        }
+        .header__bg2 {
+            margin-top: 5%;
+        }
+        .mainCardContent {
+            font-size: 120%;
+        }
+        /* SINGLE PAGE 2 */
+        .mainHeaderCard2a {
+            font-size: 400%;
+        }
+        .textNextIcon p:nth-child(1) {
+            font-size: 90%;
+        }
+        .iconsCard {
+            font-size: 150%;
+        }
+        .smallPexplanation {
+            font-size: 80%;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .bgGames {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .btnBrainster {
+            font-size: 58%;
+            padding: 7px 8px 7px 7px;
+        }
+        .mainHeader {
+            font-size: 207%;
+        }
+        .mainP {
+            font-size: 85%;
+        }
+        .list li a {
+            margin-left: 0;
+        }
+        .pStudenti {
+            font-size: 75%;
+        }
+        .bgMain {
+            background-image: -webkit-linear-gradient(100deg, rgb(255, 255, 255) 89.08%, rgb(67, 23, 129) 78.06%);
+        }
+        /* REGISTRATION */
+        .headerYellow {
+            padding-left: 35px;
+            font-size: 150%;
+        }
+        .purpleContactBg {
+            padding: 13.85% 0;
+        }
+        .headerYellow {
+            padding-left: 15px;
+        }
+        /* ABOUT US */
+        .TextBgAbout {
+            padding-bottom: 4.5%;
+        }
+        .iconsFont {
+            font-size: 120%;
+        }
+        /* SIGN IN */
+        .signForm {
+            margin: 44.6% 0;
+        }
+        .bgSignUp {
+            background-position: left;
+        }
+        /* SINGLE PAGE  */
+        .mainHeaderCard2 {
+            font-size: 400%;
+        }
+        .ainImgCard {
+            width: 65%;
+            /* margin-left: 5%; */
+        }
+        .mainPhotoSingle {
+            margin-top: 6.2%;
+        }
+        .mainCardContent {
+            /* padding-top: 8%; */
+            font-size: 110%;
+        }
+        .header__bg2 {
+            margin-top: 5%;
+        }
+        .iconsCard {
+            /* font-weight: bold; */
+            font-size: 150%;
+        }
+        .textNextIcon p:nth-child(1) {
+            font-size: 90%;
+        }
+        .iconsCard {
+            font-size: 110%;
+        }
+        /* SINGLE CARD2 */
+        .mainHeaderCard2a {
+            font-size: 280%;
+        }
+        .mainHeaderCard {
+            font-size: 200%;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .mainPhoto {
+            display: none;
+        }
+        .bgMain {
+            padding-top: 14%;
+        }
+        .buttonS {
+            width: 100%;
+        }
+        .btnBrainster {
+            padding: 11px 10px 11px 10px;
+            font-size: 90%;
+            /* width: 150px; */
+        }
+        .mainHeader {
+            font-size: 160%;
+        }
+        .mainP {
+            width: 99%;
+        }
+        .bgGames {
+            padding: 0;
+        }
+        .noWhiteSpace {
+            font-size: 100%;
+        }
+        .cardText h4 {
+            font-weight: bold;
+        }
+        .iconProperties {
+            height: 40px;
+            width: 40px;
+        }
+        .pTime {
+            /* font-size: 70%; */
+            margin-left: 0;
+        }
+        .mainHeader {
+            width: 70%;
+            margin: 0 auto;
+        }
+        .header__bg {
+            background-image: -webkit-linear-gradient(105deg, rgb(67, 23, 129) 59.3%, rgb(255, 255, 255) 44.15%)
+        }
+        .mainPA {
+            width: 90%;
+            padding: 5% 0 10% 0;
+        }
+        .flexAb {
+            display: flex;
+            flex-direction: column;
+        }
+        .list {
+            width: 100%;
+            margin: 10%;
+            margin-bottom: 10%;
+            text-align: center;
+            order: 1;
+        }
+        .list li a {
+            margin: 0 auto;
+        }
+        .list li {
+            margin: 0 5%;
+        }
+        .logoxs {
+            order: 3;
+            width: 20%;
+            margin: 0 auto;
+            padding-bottom: 5%;
+        }
+        .links {
+            width: 60%;
+            text-align: center;
+            margin: 5% 0 0 0;
+        }
+        .links a {
+            margin: 0 auto;
+        }
+        .py-1 {
+            padding: 2% 0 10% 0;
+        }
+        .py-5 {
+            padding: 2% 0 20% 0;
+        }
+        .logo {
+            width: 100%;
+        }
+        /* PROVERI GO OVA */
+        .logo a {
+            width: 25%;
+        }
+        .bgMain {
+            background: -webkit-linear-gradient(105deg, rgb(255, 255, 255) 90.08%, rgb(67, 23, 129) 78.06%);
+            background: -moz-linear-gradient(100deg, rgb(255, 255, 255) 81.198%, rgb(67, 23, 129) 78.06%);
+        }
+        .openbtn {
+            font-size: 100%;
+        }
+        .buttonS {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .buttonS {
+            margin-bottom: 3%;
+        }
+        /* ABOUT US */
+        .bgAbout {
+            background-image: none;
+        }
+        .iconsFont {
+            font-size: 120%;
+        }
+        .flexC {
+            justify-content: flex-end;
+            margin-right: 5%;
+        }
+        .aboutP {
+            font-size: 110%;
+        }
+        .tileH2 {
+            font-size: 110.45%;
+        }
+        /* SIGN IN */
+        .signForm {
+            margin: 34% 0;
+        }
+        .pSignIn {
+            font-size: 140%;
+        }
+        .font {
+            font-size: 120%;
+        }
+        /* SINGLE PAGE  */
+        .mainHeaderCard2 {
+            font-size: 250%;
+        }
+        .mainPhotoSingle {
+            margin-top: 8%;
+            background: -webkit-linear-gradient(100deg, rgb(255, 255, 255) 32.9%, rgb(0, 0, 0) 33.7%);
+        }
+        .ainImgCard {
+            margin-top: 10%;
+        }
+        .mainHeaderCard, .mainHeaderCard2a {
+            font-size: 150%;
+            text-align: center;
+        }
+        .explanationFlex {
+            display: flex;
+            flex-direction: column;
+            /* align-content: center; */
+            /* justify-content: center; */
+            width: 100%;
+            text-align: center;
+        }
+        .my-left {
+            margin-left: 0;
+        }
+        .mainHeaderCard2 {
+            text-align: center;
+        }
+        .mainCardContent {
+            font-size: 100%;
+        }
+        .header__bg2 {
+            margin-top: -10%;
+            padding-top: 38%;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        /* .btnBrainster {
+                width: 100%;
+            } */
+        /* SIGN IN */
+        .btnBrainster {
+            font-size: 70%;
+        }
+        .signForm {
+            margin: 47.8% 0;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .bgMain {
+            background: -webkit-linear-gradient(105deg, rgb(255, 255, 255) 88.08%, rgb(67, 23, 129) 78.06%);
+        }
+        .header__bg {
+            background-image: -webkit-linear-gradient(105deg, rgb(67, 23, 129) 65.56%, rgb(255, 255, 255) 44.15%);
+        }
+        .headerYellow {
+            font-size: 100%;
+        }
+        .buttonS {
+            margin-bottom: 3%;
+        }
+        .btnBrainster {
+            font-size: 66%;
+        }
+        .pTextForm {
+            font-size: 100%;
+        }
+        /* SIGN IN */
+        .btnBrainster {
+            font-size: 60%;
+        }
+        .signForm {
+            margin: 66% 0;
+        }
+    }
