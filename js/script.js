@@ -195,7 +195,7 @@ if (contentElement !== null) {
     var contents = "";
     igri.forEach(function (element) {
         contents +=
-            `<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            `<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
    <div id="`+ element.id + `" class="text">
        <a class="textDecoA"`+ element.link + `data-toggle="tooltip" container: 'body' data-placement="auto top"
         title="Click to enter the game"

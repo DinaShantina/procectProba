@@ -1,5 +1,5 @@
 
-var targetA = window.localStorage.getItem('target');
+var targetA = window.localStorage.getItem('targetA');
 // var registration = "";
 
 switch (targetA) {
@@ -160,26 +160,26 @@ switch (targetA) {
     case 'contact':
         // var contact = document.getElementById('contact');
         reg.innerHTML += `<div class="container-fluid">
-        <div class="row contactBg">
-            <div class="col-md-10 col-md-offset-2">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="contactForm">
+            <div class="row contactBg">
+                <div class="col-md-10 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="contactForm">
 
-                            <img class="img img-responsive imgFlex" src="images/logoBlack.png"
-                                style="width: 45%">
+                                <img class="img img-responsive imgFlex" src="images/logoBlack.png"
+                                    style="width: 45%">
 
-                            <h2 class="text-center bgText">Телефон<br>
-                                +389 70 38 47 28</h2>
+                                <h2 class="text-center bgText">Телефон<br>
+                                    +389 70 38 47 28</h2>
 
-                            <h2 class="text-center bgText"> Емаил<br>
-                                <a href="mailto:yourname@yourisp.com">contact@brainster.co</a></h2>
+                                <h2 class="text-center bgText"> Емаил<br>
+                                    <a href="mailto:yourname@yourisp.com">contact@brainster.co</a></h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>`
+        </div>`
         // contact.innerHTML = registration;
         break;
     case 'about':
@@ -242,7 +242,6 @@ switch (targetA) {
         // about.innerHTML = registration;
         break;
     default:
-        break;
 
 };
 function myFunction(event) {
@@ -250,17 +249,17 @@ function myFunction(event) {
     console.log("TUKA SME: ", event.targetA);
 }
 
-document.getElementById("reg1").addEventListener('click', function (e) {
-    window.localStorage.setItem("target", "reg1");
+document.getElementById("reg1").addEventListener('click', function (event) {
+    window.localStorage.setItem("targetA", "reg1");
 }, false);
 
-document.getElementById("sign1").addEventListener('click', function (e) {
-    window.localStorage.setItem("target", "sign1");
+document.getElementById("sign1").addEventListener('click', function (event) {
+    window.localStorage.setItem("targetA", "sign1");
 }, false);
-document.getElementById("contact1").addEventListener('click', function (e) {
-    window.localStorage.setItem("target", "contact1");
+document.getElementById("contact1").addEventListener('click', function (event) {
+    window.localStorage.setItem("targetA", "contact1");
 }, false);
 
-document.getElementById("about1").addEventListener('click', function (e) {
-    window.localStorage.setItem("target", "about1");
+document.getElementById("about1").addEventListener('click', function (event) {
+    window.localStorage.setItem("targetA", "about1");
 }, false);
