@@ -26,7 +26,7 @@ registration += ` <div class="container-fluid bgSignUp">
 
                     <div class="cardFlex my-1">
                         <p class="pSignIn">НАЈАВИ СЕ</p>
-                        <img src="images/ikonaSigns.png" class="img img-responsive imgSign">
+                        <img src="images/ikonaSigns.png" class="img img-responsive imgSign" alt="Brainster Logo">
 
                     </div>
                     <div class="form-group">

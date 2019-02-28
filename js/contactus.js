@@ -22,7 +22,7 @@ registration += `<div class="container-fluid">
                 </ul>
             </div>
 
-                    <img class="img img-responsive imgFlex" src="images/logoBlack.png">
+                    <img class="img img-responsive imgFlex" src="images/logoBlack.png" alt="Brainster Logo">
 
                     <h2 class="text-center bgText">Телефон<br>
                     <a href="tel:+38970384728">

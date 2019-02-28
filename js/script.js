@@ -202,13 +202,13 @@ if (contentElement !== null) {
            data-trigger="mouse hover">
            <div class="bgWhite">
                <div class="bgGames">
-                   <img src="`+ element.slika + `"class="img img-responsive mainPhoto">
+                   <img src="`+ element.slika + `"class="img img-responsive mainPhoto" alt="Photo of Brainster Logo">
                </div>
                <div class="cardText cardFlex">
                    <div>
                        <h4 class="py-x noWhiteSpace">`+ element.ime + `</h4>
                        <p class="noWhiteSpace py-x">Категорија: <span class="spanInovacii">`+ element.kategorija + `</span></p> </div>
-                        <div class="IconBg1 iconProperties iconHover">  <img src="`+ element.miniSlika + `"class="img img-responsive imgCard" > </div>
+                        <div class="IconBg1 iconProperties iconHover">  <img src="`+ element.miniSlika + `"class="img img-responsive imgCard" alt="Logo Game"> </div>
                    </div>
                    <p class="py-x1 text-Vreme"><i class="fas fa-clock"></i><span class="spanVremetranjev py-x">Времетрање</span></p>
                    <p class="pTime text-muted">`+ element.vremetranje + ` </p>
@@ -236,7 +236,7 @@ if (contentElement !== null) {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.brai   nster.io/business" target="_blank">
+                        <a href="https://www.brainster.io/business" target="_blank">
                             <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
                         </a>
                     </li>
@@ -248,7 +248,7 @@ if (contentElement !== null) {
                 class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                 <div class="row cardFlex">
                     <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                        <img src="images/1.png" class="img img-responsive rotate-scale-down ainImgCard">
+                        <img src="images/1.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 1">
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Dotmocracy</h1>
@@ -407,7 +407,7 @@ if (contentElement !== null) {
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
                                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/2.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/2.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 2">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2a hidden-xs">Project Mid-way Evaluation</h1>
@@ -570,7 +570,7 @@ if (contentElement !== null) {
                         class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                         <div class="row cardFlex">
                             <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                <img src="images/3.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                <img src="images/3.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 3">
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                 <h1 class="mainHeaderCard2 hidden-xs">Тhe 5 Whys</h1>
@@ -724,7 +724,7 @@ if (contentElement !== null) {
                         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
                                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/4.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/4.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 4">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Future Trends</h1>
@@ -911,7 +911,7 @@ if (contentElement !== null) {
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
                                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/5.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/5.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 5">
                                 </div>
                                     <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                         <h1 class="mainHeaderCard2 hidden-xs">Story Building</h1>
@@ -1050,7 +1050,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/6.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/6.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 6">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Тake a Stand</h1>
@@ -1205,7 +1205,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/7.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/7.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 7">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">IDOARRT Meeting Design</h1>
@@ -1345,7 +1345,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/8.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/8.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 8">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">3 Action Steps</h1>
@@ -1511,7 +1511,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/9.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/9.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 9">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Letter to Myself</h1>
@@ -1646,7 +1646,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/10.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/10.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 10">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Аctive Listening</h1>
@@ -1815,7 +1815,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/11.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/11.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 11">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Feedback: I appreciate</h1>
@@ -1951,7 +1951,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/12.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/12.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 12">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Explore your values</h1>
@@ -2099,7 +2099,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/13.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/13.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 13">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Reflection Individual</h1>
@@ -2240,7 +2240,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/14.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/14.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 14">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Back-turned Feedback</h1>
@@ -2372,7 +2372,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/15.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/15.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 15">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Conflict Responses</h1>
@@ -2511,7 +2511,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/16.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/16.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 16">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Myers-Briggs Team Reflection</h1>
@@ -2646,7 +2646,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/17.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/17.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 17">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Personal Presentations</h1>
@@ -2781,7 +2781,7 @@ if (contentElement !== null) {
                             <div class="row cardFlex">
                                 <div
                                     class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/18.png" class="img img-responsive rotate-scale-down ainImgCard">
+                                    <img src="images/18.png" class="img img-responsive rotate-scale-down ainImgCard"  alt="Logo Game 18">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
                                     <h1 class="mainHeaderCard2 hidden-xs">Circles of influence</h1>

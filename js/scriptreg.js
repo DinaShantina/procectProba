@@ -15,7 +15,7 @@ switch (targetA) {
 
                             <div
                                 class="col-md-6 col-md-offset-0 col-sm-11 col-sm-offset-0 col-xs-12 col-xs-offeset-0 TextBgRegistration">
-                                <h2 class="textYellow headerYellow text-left">Регистрирај Се</h2>
+                                <h2 class="headerYellow text-left">Регистрирај Се</h2>
                                 <form>
                                     <div class="form-group">
                                         <label class="sr-only" for="inputFirstName">Име</label>

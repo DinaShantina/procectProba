@@ -5,7 +5,7 @@ registration += ` <div class="container-fluid">
 
     <div class="col-lg-12 col-md-12 col-sm-12 bgAbout">
         <div class="col-md-2">
-            <img class="imgAbout img img-responsive hidden-sm hidden-xs" src="images/aboutus.png">
+            <img class="imgAbout img img-responsive hidden-sm hidden-xs" src="images/aboutus.png" alt="Brainster Logo">
         </div>
 
         <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 TextBgAbout">
