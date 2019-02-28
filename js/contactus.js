@@ -29,7 +29,7 @@ registration += `<div class="container-fluid">
                         +389 70 38 47 28</a></h2>
 
                     <h2 class="text-center bgText">Емаил<br>
-                        <a href="mailto:yourname@yourisp.com">contact@brainster.co</a></h2>
+                        <a href="mailto:contact@brainster.co">contact@brainster.co</a></h2>
                 </div>
             </div>
         </div>

@@ -925,10 +925,10 @@ ul {
         }
         /* CONTACT US */
         .bgText {
-            font-size: 150%;
+            font-size: 142%;
         }
         .contactForm {
-            padding: 82.5% 5% 82.5% 5%;
+            padding: 84.2% 5% 84.2% 5%;
         }
     }
     @media screen and (max-width: 768px) {
