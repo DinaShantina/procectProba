@@ -210,7 +210,7 @@ if (contentElement !== null) {
                        <p class="noWhiteSpace py-x">Категорија: <span class="spanInovacii">`+ element.kategorija + `</span></p> </div>
                         <div class="IconBg1 iconProperties iconHover">  <img src="`+ element.miniSlika + `"class="img img-responsive imgCard" alt="Logo Game"> </div>
                    </div>
-                   <p class="py-x1 text-Vreme"><i class="fas fa-clock"></i><span class="spanVremetranjev py-x">Времетрање</span></p>
+                   <p class="py-x1 text-Vreme"><i class="fas fa-clock"></i><span class="spanVremetranjev py-x">Времетраење</span></p>
                    <p class="pTime text-muted">`+ element.vremetranje + ` </p>
                </div>
            </div>
@@ -243,7 +243,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-            <div class="row">
+           
             <div
                 class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                 <div class="row cardFlex">
@@ -255,7 +255,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -404,7 +404,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                  
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -416,7 +416,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -567,7 +567,7 @@ if (contentElement !== null) {
 
             </ul>
         </div>
-                <div class="row">
+              
                     <div
                         class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                         <div class="row cardFlex">
@@ -579,7 +579,7 @@ if (contentElement !== null) {
                             </div>
                         </div>
                     </div>
-                </div>
+              
             </div>
         </div>
     </div>
@@ -722,7 +722,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                  
                         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
                                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
@@ -733,7 +733,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
                 </div>
             </div>
             </div>
@@ -908,7 +908,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                   
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -920,7 +920,7 @@ if (contentElement !== null) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
@@ -1046,7 +1046,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                    
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1059,7 +1059,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -1201,7 +1201,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                    
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1214,7 +1214,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
                 </div>
             </div>
             </div>
@@ -1341,7 +1341,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                  
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1354,7 +1354,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
                 </div>
             </div>
             </div>
@@ -1507,7 +1507,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+               
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1520,7 +1520,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
                 </div>
             </div>
             </div>
@@ -1642,7 +1642,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                    
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1655,7 +1655,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                 
                 </div>
             </div>
             </div>
@@ -1811,7 +1811,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                 
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1824,7 +1824,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -1947,7 +1947,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                  
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -1960,7 +1960,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -2095,7 +2095,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                  
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -2108,7 +2108,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
             </div>
@@ -2236,7 +2236,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                   
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -2249,7 +2249,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -2368,7 +2368,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                   
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -2381,7 +2381,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -2507,7 +2507,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                    
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -2520,7 +2520,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                 
                 </div>
             </div>
             </div>
@@ -2642,7 +2642,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                   
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -2655,7 +2655,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>
@@ -2777,7 +2777,7 @@ if (contentElement !== null) {
 
                 </ul>
             </div>
-                    <div class="row">
+                   
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -2790,7 +2790,7 @@ if (contentElement !== null) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
                 </div>
             </div>
             </div>

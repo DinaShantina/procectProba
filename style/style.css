@@ -715,6 +715,36 @@ ul {
     font-size: 135%;
 }
 
+@media screen and (max-width: 1602px) {
+    .contactForm {
+        padding: 32% 5% 32% 5%;
+    }
+    .purpleContactBg {
+        padding: 4.8% 0 3.8% 0;
+    }
+}
+
+@media screen and (max-width: 1556px) {
+    .btnBrainster {
+        font-size: 90%;
+    }
+    .noWhiteSpace {
+        font-size: 95%;
+    }
+    a {
+        cursor: pointer;
+    }
+    .purpleContactBg {
+        padding: 5% 0 5% 0;
+    }
+    .signForm {
+        margin: 46.7% 0 46% 0;
+    }
+    .contactForm {
+        padding: 32% 5% 36.2% 5%;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .list li a {
         margin-left: 30px;
@@ -731,7 +761,7 @@ ul {
     /* REGISTRATION */
     .purpleContactBg {
         margin-top: 5.6%;
-        padding: 6.05% 0;
+        padding: 6.25% 0;
     }
     .headerYellow {
         font-size: 220%;
@@ -760,6 +790,89 @@ ul {
     }
     .contactForm {
         padding: 34% 5% 46.4% 5%;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    .signForm {
+        margin: 59% 0;
+    }
+    .list {
+        font-size: 80%;
+    }
+    .bgText {
+        font-size: 150%;
+    }
+    .contactForm {
+        padding: 55% 5% 50.4% 5%;
+    }
+    .purpleContactBg {
+        padding: 6.4% 0;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .purpleContactBg {
+        padding: 8.25% 0;
+    }
+}
+
+@media screen and (max-width: 1109px) {
+    .purpleContactBg {
+        padding: 8.25% 0;
+    }
+}
+
+@media screen and (max-width: 1091px) {
+    .purpleContactBg {
+        padding: 8.25% 0;
+    }
+}
+
+@media screen and (max-width: 1088px) {
+    .btnBrainster {
+        font-size: 78%;
+    }
+    .textNextIcon {
+        font-size: 80%;
+    }
+    .list {
+        font-size: 62%;
+    }
+    .mainHeader {
+        font-size: 300%;
+    }
+    .mainHeaderCard2a {
+        font-size: 400%;
+    }
+    .mainHeaderCard {
+        font-size: 200%;
+    }
+    .purpleContactBg {
+        /* margin-top: 5.6%; */
+        padding: 11.4% 0;
+    }
+    .signForm {
+        margin: 81% 0;
+    }
+    .aboutP {
+        font-size: 100%;
+    }
+    .TextBgAbout {
+        padding: 4% 3% 4.6% 3%;
+    }
+    .contactForm {
+        padding: 75.5% 5% 74% 5%;
+    }
+    .bgText {
+        font-size: 155%;
+    }
+    .noWhiteSpace {
+        font-size: 70%;
+    }
+    .iconProperties {
+        height: 45px;
+        width: 45px;
     }
 }
 
@@ -857,7 +970,17 @@ ul {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+    .imgFlex {
+        width: 20%;
+    }
+    .contactForm {
+        padding: 19.2% 5% 11.2% 5%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
     .bgGames {
         background-color: black;
         display: flex;
