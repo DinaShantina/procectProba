@@ -59,8 +59,8 @@ registration += `<div class="container-fluid">
                                     </select>
                                 </div>
                             </div>
-                            <textarea maxlength="300" class="form-control text-center"
-                                rows="3">Please use this space to tell us more about your needs. Our team can craft custom solutions around reskilling, upskilling, onboarding, hiring, and bechmarking your talent</textarea>
+                            <textarea maxlength="300" class="form-control"
+                                rows="3">Ве молиме користете го овој простор за да ни кажете повеќе за вашите потреби. Нашиот тим може да направат сопствени решенија околу реквизирањето, подигнување, вградување, ангажирање и споредување на вашиот талент.</textarea>
 
                             <button type="submit" class="yellowBlack btnBrainster padSubmit">Регистрирај
                                 се</button>
@@ -71,7 +71,7 @@ registration += `<div class="container-fluid">
                 </div>
 
             </div>
-            <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs">
+            <div class="buttonSA flexA hidden-lg hidden-md hidden-sm visible-xs">
                 <ul class="list-inline">
                     <li>
                         <a href="https://www.brainster.io/business" target="_blank">

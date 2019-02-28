@@ -40,7 +40,7 @@ registration += ` <div class="container-fluid bgSignUp">
                     </div>
 
                     <label class="checkBox">
-                        <input type="checkbox"> Запамти ме ?
+                        <input type="checkbox" style="margin:0"> Запамти ме ?
                     </label>
 
                     <button type="submit" class="btn-block yellowButton btnBrainster textWhite font my-1">Најави

@@ -22,13 +22,13 @@ registration += `<div class="container-fluid">
                 </ul>
             </div>
 
-                    <img class="img img-responsive imgFlex" src="images/logoBlack.png"
-                        style="width: 45%">
+                    <img class="img img-responsive imgFlex" src="images/logoBlack.png">
 
                     <h2 class="text-center bgText">Телефон<br>
-                        +389 70 38 47 28</h2>
+                    <a href="tel:+38970384728">
+                        +389 70 38 47 28</a></h2>
 
-                    <h2 class="text-center bgText"> Емаил<br>
+                    <h2 class="text-center bgText">Емаил<br>
                         <a href="mailto:yourname@yourisp.com">contact@brainster.co</a></h2>
                 </div>
             </div>

@@ -108,7 +108,7 @@ var igri = [
     },
     {
         id: 'card10',
-        ime: 'Аctive Listening Kategorii liderstvo',
+        ime: 'Аctive Listening',
         slika: "images/10.png",
         kategorija: "Иновации",
         miniSlika: "images/10.png",
@@ -228,15 +228,30 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
-                    <div class="row">
-                        <div
-                            class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
-                            <div class="row cardFlex">
-                                <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
-                                    <img src="images/1.png" class="img img-responsive rotate-scale-down ainImgCard">
-                                </div>
-                                <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Dotmocracy</h1>
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brai   nster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="row">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
+                <div class="row cardFlex">
+                    <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 hidden-xs">
+                        <img src="images/1.png" class="img img-responsive rotate-scale-down ainImgCard">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
+                                    <h1 class="mainHeaderCard2 hidden-xs">Dotmocracy</h1>
                                 </div>
                             </div>
                         </div>
@@ -250,52 +265,54 @@ if (contentElement !== null) {
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
             
                     <h1 class="mainHeaderCard">Dotmocracy...</h1>
+                  
             
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="far fa-clock"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
+                                    <p>Временска рамка</p>
                                     <p class="smallPexplanation">5-30 минути</p>
                                 </div>
                             </div>
                         </div>
+                    
             
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-users"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
+                                    <p>Големина на група</p>
                                     <p class="smallPexplanation">3-40</p>
                                 </div>
                             </div>
                         </div>
             
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-landmark"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Почетно</p>
+                                    <p>Ниво за фасилитирање</p>
+                                    <p class="smallPexplanation">Почетно</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-paint-roller"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">Стикери,
-                                        пенкала /маркери.
+                                    <p>Материјали</p>
+                                    <p class="smallPexplanation">Стикери,
+                                        пенкала/ маркери
                                     </p>
                                 </div>
             
@@ -370,6 +387,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -378,7 +410,7 @@ if (contentElement !== null) {
                                     <img src="images/2.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2a">Project Mid-way Evaluation</h1>
+                                    <h1 class="mainHeaderCard2a hidden-xs">Project Mid-way Evaluation</h1>
                                 </div>
                             </div>
                         </div>
@@ -391,51 +423,53 @@ if (contentElement !== null) {
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
             
                     <h1 class="mainHeaderCard">Project Mid-way Evaluation...</h1>
+                  
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="far fa-clock"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
+                                    <p>Временска рамка</p>
                                     <p class="smallPexplanation">30-60 минути</p>
                                 </div>
                             </div>
                         </div>
+                    
             
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-users"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
+                                    <p>Големина на група</p>
                                     <p class="smallPexplanation">2-10</p>
                                 </div>
                             </div>
                         </div>
             
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-landmark"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
+                                    <p>Ниво за фасилитирање</p>
+                                    <p class="smallPexplanation">Средно</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-paint-roller"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">Стикери,
-                                        пенкала /маркери,флипчарт
+                                    <p>Материјали</p>
+                                    <p class="smallPexplanation">Стикери,
+                                        пенкала /маркери, флипчарт.
                                     </p>
                                 </div>
             
@@ -516,6 +550,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+            <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+            <ul class="list-inline flexA">
+                <li>
+                    <a href="https://www.brainster.io/business" target="_blank">
+                        <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.brainster.io/business" target="_blank">
+                        <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
                 <div class="row">
                     <div
                         class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -524,7 +573,7 @@ if (contentElement !== null) {
                                 <img src="images/3.png" class="img img-responsive rotate-scale-down ainImgCard">
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                <h1 class="mainHeaderCard2">Тhe 5 Whys</h1>
+                                <h1 class="mainHeaderCard2 hidden-xs">Тhe 5 Whys</h1>
                             </div>
                         </div>
                     </div>
@@ -539,57 +588,57 @@ if (contentElement !== null) {
 
                 <h1 class="mainHeaderCard">Тhe 5 Whys</h1>
                 <div class="row cardBgGrey">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="explanationFlex">
-                            <div class="iconsCard">
-                                <i class="far fa-clock"></i>
-                            </div>
-                            <div class="textNextIcon">
-                                <p class="textUnderline">Временска рамка</p>
-                                <p class="smallPexplanation">30-60 минути</p>
-                            </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div class="explanationFlex">
+                        <div class="iconsCard">
+                            <i class="far fa-clock"></i>
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="explanationFlex">
-                            <div class="iconsCard">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <div class="textNextIcon">
-                                <p class="textUnderline">Големина на група</p>
-                                <p class="smallPexplanation">2-10</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="explanationFlex">
-                            <div class="iconsCard">
-                                <i class="fas fa-landmark"></i>
-                            </div>
-                            <div class="textNextIcon">
-                                <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                <p class="smallPexplanation my-left">Почетно</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="explanationFlex">
-                            <div class="iconsCard">
-                                <i class="fas fa-paint-roller"></i>
-                            </div>
-                            <div class="textNextIcon">
-                                <p class="my-left textUnderline">Материјали</p>
-                                <p class="smallPexplanation my-left">Пенкала,
-                                    бела табла или флипчарт, листови.
-                                </p>
-                            </div>
-
-
+                        <div class="textNextIcon">
+                            <p>Временска рамка</p>
+                            <p class="smallPexplanation">30-60 минути</p>
                         </div>
                     </div>
                 </div>
+            
+    
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div class="explanationFlex">
+                        <div class="iconsCard">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="textNextIcon">
+                            <p>Големина на група</p>
+                            <p class="smallPexplanation">2-10</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div class="explanationFlex">
+                        <div class="iconsCard">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <div class="textNextIcon">
+                            <p>Ниво за фасилитирање</p>
+                            <p class="smallPexplanation">Почетно</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div class="explanationFlex">
+                        <div class="iconsCard">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <div class="textNextIcon">
+                            <p>Материјали</p>
+                            <p class="smallPexplanation">Бела табла или флипчарт, листови.
+                            </p>
+                        </div>
+    
+    
+                    </div>
+                </div>
+            </div>
                 <div class="mainCardContent">
                     <p class="boldFont">
                         Овој едноставен и моќен метод е корисен за откривање на јадрото на проблемот или
@@ -656,6 +705,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
                             <div class="row cardFlex">
@@ -663,7 +727,7 @@ if (contentElement !== null) {
                                     <img src="images/4.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Future Trends</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Future Trends</h1>
                                 </div>
                             </div>
                         </div>
@@ -677,60 +741,60 @@ if (contentElement !== null) {
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Future Trends...</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">Пенкала,
-                                        бела табла или флипчарт,
-                                        ,маркери,
-                                        селотејп.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p>Временска рамка</p>
+                                <p class="smallPexplanation">60-120 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Средно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Пенкала,
+                                бела табла или флипчарт,
+                                маркери,
+                                селотејп.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div>
                     <div class="mainCardContent">
                         <p class="boldFont">
                             Оваа алатка им помага на малите и големите групи да ги идентификуваат клучните
@@ -827,6 +891,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -835,7 +914,7 @@ if (contentElement !== null) {
                                     <img src="images/5.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                     <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                        <h1 class="mainHeaderCard2">Story Building</h1>
+                                        <h1 class="mainHeaderCard2 hidden-xs">Story Building</h1>
                                     </div>
                                 </div>
                             </div>
@@ -848,60 +927,60 @@ if (contentElement !== null) {
                     <div
                         class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                         <h1 class="mainHeaderCard">Story Building</h1>
-        
                         <div class="row cardBgGrey">
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                <div class="explanationFlex">
-                                    <div class="iconsCard">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-                                    <div class="textNextIcon">
-                                        <p class="textUnderline">Временска рамка</p>
-                                        <p class="smallPexplanation">30-60 минути</p>
-                                    </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <div class="explanationFlex">
+                                <div class="iconsCard">
+                                    <i class="far fa-clock"></i>
                                 </div>
-                            </div>
-        
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                <div class="explanationFlex">
-                                    <div class="iconsCard">
-                                        <i class="fas fa-users"></i>
-                                    </div>
-                                    <div class="textNextIcon">
-                                        <p class="textUnderline">Големина на група</p>
-                                        <p class="smallPexplanation">2-40</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                <div class="explanationFlex">
-                                    <div class="iconsCard">
-                                        <i class="fas fa-landmark"></i>
-                                    </div>
-                                    <div class="textNextIcon">
-                                        <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                        <p class="smallPexplanation my-left">Почетно</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                <div class="explanationFlex">
-                                    <div class="iconsCard">
-                                        <i class="fas fa-paint-roller"></i>
-                                    </div>
-                                    <div class="textNextIcon">
-                                        <p class="my-left textUnderline">Материјали</p>
-                                        <p class="smallPexplanation my-left">Лаптоп,
-                                            таблет,
-                                            смартфон
-                                    </p>
-                                    </div>
-        
-        
+                                <div class="textNextIcon">
+                                    <p>Временска рамка</p>
+                                    <p class="smallPexplanation">30-60 минути</p>
                                 </div>
                             </div>
                         </div>
+                    
+            
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <div class="explanationFlex">
+                                <div class="iconsCard">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="textNextIcon">
+                                    <p>Големина на група</p>
+                                    <p class="smallPexplanation">2-40</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <div class="explanationFlex">
+                                <div class="iconsCard">
+                                    <i class="fas fa-landmark"></i>
+                                </div>
+                                <div class="textNextIcon">
+                                    <p>Ниво за фасилитирање</p>
+                                    <p class="smallPexplanation">Почетно</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <div class="explanationFlex">
+                                <div class="iconsCard">
+                                    <i class="fas fa-paint-roller"></i>
+                                </div>
+                                <div class="textNextIcon">
+                                    <p>Материјали</p>
+                                    <p class="smallPexplanation">Лаптоп,
+                                    таблет,
+                                    смартфон.
+                                    </p>
+                                </div>
+            
+            
+                            </div>
+                        </div>
+                    </div>
                         <div class="mainCardContent">
                             <p class="boldFont">
                                 Кратка вежба за да се донесе &quot;градењето приказна&quot; во живот: клучен концепт во
@@ -950,6 +1029,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -959,7 +1053,7 @@ if (contentElement !== null) {
                                     <img src="images/6.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Тake a Stand</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Тake a Stand</h1>
                                 </div>
                             </div>
                         </div>
@@ -973,49 +1067,50 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Тake a Stand</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="far fa-clock"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
+                                    <p>Временска рамка</p>
                                     <p class="smallPexplanation">60-120 минути</p>
                                 </div>
                             </div>
                         </div>
+                    
             
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-users"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
+                                    <p>Големина на група</p>
                                     <p class="smallPexplanation">2-40</p>
                                 </div>
                             </div>
                         </div>
             
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-landmark"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
+                                    <p>Ниво за фасилитирање</p>
+                                    <p class="smallPexplanation">Средно</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="explanationFlex">
                                 <div class="iconsCard">
                                     <i class="fas fa-paint-roller"></i>
                                 </div>
                                 <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">/
+                                    <p>Материјали</p>
+                                    <p class="smallPexplanation">/
                                     </p>
                                 </div>
             
@@ -1089,6 +1184,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1098,7 +1208,7 @@ if (contentElement !== null) {
                                     <img src="images/7.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">IDOARRT Meeting Design</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">IDOARRT Meeting Design</h1>
                                 </div>
                             </div>
                         </div>
@@ -1113,57 +1223,58 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">IDOARRT Meeting Design</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">5-30 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">3-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Почетно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                        Табла за пишување,
-                                        флипчарт
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">5-30 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">3-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Почетно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Табла за пишување,
+                                флипчарт.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div>
                     <div class="mainCardContent">
                         <p class="boldFont">
                         IDOARRT е едноставна алатка која ќе ви помогне да водите ефикасен состанок или
@@ -1213,6 +1324,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1222,7 +1348,7 @@ if (contentElement !== null) {
                                     <img src="images/8.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">3 Action Steps</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">3 Action Steps</h1>
                                 </div>
                             </div>
                         </div>
@@ -1237,57 +1363,58 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">3 Action Steps</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">120-240 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-10</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Пенкала/маркери во боја,
-                                    А3 формат хартија.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">120-240 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-10</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Средно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Пенкала/маркери во боја,
+                                А3 формат хартија.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Ова е мала стратешка сесија за планирање која им помага на групи и поединци да
@@ -1363,6 +1490,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1372,7 +1514,7 @@ if (contentElement !== null) {
                                     <img src="images/9.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Letter to Myself</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Letter to Myself</h1>
                                 </div>
                             </div>
                         </div>
@@ -1387,61 +1529,58 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Letter to Myself</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">5-30 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40+</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Почетно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Пенкало,
-                                    разгледница,
-                                    хартија,
-                                    коверт,
-                                    маркери,
-                                    флипчарт.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">5-30 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40+</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Почетно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Пенкало,
+                                разгледница, хартија, коверт, маркери, флипчарт.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Целта на оваа вежба е да ги поддржи учесниците во примена на нивните согледувања и
@@ -1486,6 +1625,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1495,7 +1649,7 @@ if (contentElement !== null) {
                                     <img src="images/10.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Аctive Listening</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Аctive Listening</h1>
                                 </div>
                             </div>
                         </div>
@@ -1510,57 +1664,58 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Аctive Listening</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Пенкала/маркери,
-                                    флипчарт.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">6-120 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Средно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Пенкала/маркери, 
+                                флипчарт.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Оваа активност ги поддржува учесниците да размислуваат за едно прашање и да
@@ -1639,6 +1794,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1648,7 +1818,7 @@ if (contentElement !== null) {
                                     <img src="images/11.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Feedback: I appreciate</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Feedback: I appreciate</h1>
                                 </div>
                             </div>
                         </div>
@@ -1663,57 +1833,58 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Feedback: I appreciate</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Напредно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Стикери
-                                    Пенкала.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">6-120 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Напредно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Стикери,
+                                пенкала.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Редовен и ефективен фидбек е еден од најважните состојки во градењето конструктивни
@@ -1759,6 +1930,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1768,7 +1954,7 @@ if (contentElement !== null) {
                                     <img src="images/12.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Explore your values</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Explore your values</h1>
                                 </div>
                             </div>
                         </div>
@@ -1783,57 +1969,58 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Explore your values</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Стикери,
-                                    пенкала.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">6-120 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Средно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Стикери,
+                                пенкала.
+                                </p>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Вежба за учесниците да истражат кои се нивните најважни вредности. Тоа е направено на
@@ -1891,6 +2078,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -1900,7 +2102,7 @@ if (contentElement !== null) {
                                     <img src="images/13.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Reflection Individual</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Reflection Individual</h1>
                                 </div>
                             </div>
                         </div>
@@ -1915,57 +2117,56 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Reflection Individual</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">30-60 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Тефтер, лист.
-                                    Пенкало
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">30-60 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Средно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Тефтер, лист,
+                                пенкало.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Цел: Индивидуалната рефлексија помага да ги одвоиме комплексните искуства, така што
@@ -2018,6 +2219,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -2027,7 +2243,7 @@ if (contentElement !== null) {
                                     <img src="images/14.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Back-turned Feedback</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Back-turned Feedback</h1>
                                 </div>
                             </div>
                         </div>
@@ -2042,57 +2258,56 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Back-turned Feedback</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Напредно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Пенкало, маркери,
-                                    стикери.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">6-120 минути</p>
                             </div>
                         </div>
                     </div>
+                
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Напредно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Пенкало, маркери,
+                                cтикери
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Вежбите за фидбек имаат за цел да ги поддржат групите за да се изгради доверба и
@@ -2136,6 +2351,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -2145,7 +2375,7 @@ if (contentElement !== null) {
                                     <img src="images/15.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Conflict Responses</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Conflict Responses</h1>
                                 </div>
                             </div>
                         </div>
@@ -2160,58 +2390,55 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Conflict Responses</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-10</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Почетно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Method Kit за тимови,
-                                    Стикери,
-                                    Маркери.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">6-120 минути</p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-10</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Почетно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Method Kit за тимови, 
+                                стикери,
+                                маркери
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                         <p class="boldFont">
                         Работилница за тим кој ќе размислува за минатите конфликти и ги користи за да генерира
@@ -2263,6 +2490,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -2272,7 +2514,7 @@ if (contentElement !== null) {
                                     <img src="images/16.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Myers-Briggs Team Reflection</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Myers-Briggs Team Reflection</h1>
                                 </div>
                             </div>
                         </div>
@@ -2287,56 +2529,53 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Myers-Briggs Team Reflection</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-10</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Почетно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    /
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">6-120 минути</p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-10</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Почетно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
             
                         <p class="boldFont"> Чекор 1:</p>
@@ -2386,6 +2625,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -2395,7 +2649,7 @@ if (contentElement !== null) {
                                     <img src="images/17.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Personal Presentations</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Personal Presentations</h1>
                                 </div>
                             </div>
                         </div>
@@ -2410,57 +2664,54 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Personal Presentations</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">60-240 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Средно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Флипчарт,
-                                    маркери
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">60-240 минути</p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Средно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Флипчарт,
+                                маркери
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                
                     <hr>
@@ -2509,6 +2760,21 @@ if (contentElement !== null) {
             contentsA += `<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mainPhotoSingle">
+                <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs" id="btns">
+                <ul class="list-inline flexA">
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowButton btnBrainster"  id="btnYellow">Обуки за компании</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="yellowBlack btnBrainster" id="btnBlack">Вработи наши студенти</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
                     <div class="row">
                         <div
                             class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offeset-1 col-xs-12">
@@ -2518,7 +2784,7 @@ if (contentElement !== null) {
                                     <img src="images/18.png" class="img img-responsive rotate-scale-down ainImgCard">
                                 </div>
                                 <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12">
-                                    <h1 class="mainHeaderCard2">Circles of influence</h1>
+                                    <h1 class="mainHeaderCard2 hidden-xs">Circles of influence</h1>
                                 </div>
                             </div>
                         </div>
@@ -2533,57 +2799,54 @@ if (contentElement !== null) {
                     class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class="mainHeaderCard">Circles of influence</h1>
                     <div class="row cardBgGrey">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Временска рамка</p>
-                                    <p class="smallPexplanation">30-120 минути</p>
-                                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="far fa-clock"></i>
                             </div>
-                        </div>
-            
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="textUnderline">Големина на група</p>
-                                    <p class="smallPexplanation">2-40+</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-landmark"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Ниво за фасилитирање</p>
-                                    <p class="smallPexplanation my-left">Почетно</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="explanationFlex">
-                                <div class="iconsCard">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="textNextIcon">
-                                    <p class="my-left textUnderline">Материјали</p>
-                                    <p class="smallPexplanation my-left">
-                                    Маркери во боја,
-                                    флипчарт/бела табла.
-                                    </p>
-                                </div>
-            
-            
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Временска рамка</p>
+                                <p class="smallPexplanation">30-120 минути</p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p class="textUnderline">Големина на група</p>
+                                <p class="smallPexplanation">2-40+</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Ниво за фасилитирање</p>
+                                <p class="smallPexplanation">Почетно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="explanationFlex">
+                            <div class="iconsCard">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="textNextIcon">
+                                <p>Материјали</p>
+                                <p class="smallPexplanation">Маркери во боја, 
+                                флипчарт/ бела табла
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                     <div class="mainCardContent">
                     <p class="boldFont">
                     Работилница за тим кој ќе размислува за минатите конфликти и ги користи за да генерира
@@ -2695,98 +2958,3 @@ document.getElementById("card18").addEventListener('click', function (e) {
 
 
 
-// var reg = document.querySelector('.reg');
-// if (reg !== null) {
-//     var registration = "";
-//     registration += `
-// <div class="container-fluid">
-// <div class="row blackBg">
-
-//     <div class="col-md-10 col-md-offset-2 col-sm-11 col-sm-offest-1 col-xs-10 col-xs-offset-1">
-
-//         <div class="purpleContactBg">
-//             <div class="row">
-
-//                 <div
-//                     class="col-md-6 col-md-offset-0 col-sm-11 col-sm-offset-0 col-xs-12 col-xs-offeset-0 TextBgRegistration">
-//                     <h2 class="textYellow headerYellow text-left">Регистрирај Се</h2>
-//                     <form>
-//                         <div class="form-group">
-//                             <label class="sr-only" for="inputFirstName">Име</label>
-//                             <input type="text" class="form-control" id="inputFirstName" placeholder="Име">
-//                         </div>
-//                         <div class="form-group">
-//                             <label class="sr-only" for="inputLastName">Презиме</label>
-//                             <input type="text" class="form-control" id="inputLastName"
-//                                 placeholder="Презиме">
-//                         </div>
-
-//                         <div class="form-group">
-//                             <label class="sr-only" for="inputCompany">Компанија</label>
-//                             <input type="text" class="form-control" id="inputCompany"
-//                                 placeholder="Компанија">
-//                         </div>
-//                         <div class="form-group">
-//                             <label class="sr-only" for="inputEmail">Број</label>
-//                             <input type="number" class="form-control" id="exampleInputPassword1"
-//                                 placeholder="Број">
-//                         </div>
-//                         <div class="form-group">
-//                             <label class="sr-only" for="inputEmail">Email</label>
-//                             <input type="email" class="form-control" id="exampleInputPassword1"
-//                                 placeholder="Email">
-//                         </div>
-//                         <div class="row">
-//                             <div class="col-md-6 col-sm-6 col-xs-12">
-//                                 <p class="pTextForm">Број на вработени</p>
-//                                 <select class="form-control">
-//                                     <option>2-10</option>
-//                                     <option>11-50</option>
-//                                     <option>51-200</option>
-//                                     <option>200+</option>
-//                                 </select>
-//                             </div>
-//                             <div class="col-md-6 col-sm-6 col-xs-12">
-//                                 <p class="pTextForm">Сектор</p>
-//                                 <select class="form-control">
-//                                     <option>Човечки ресурси</option>
-//                                     <option>Маркетинг</option>
-//                                     <option>Продукт</option>
-//                                     <option>Продажба</option>
-//                                     <option>CEO</option>
-//                                     <option>друго</option>
-//                                 </select>
-//                             </div>
-//                         </div>
-//                         <textarea maxlength="300" class="form-control text-center"
-//                             rows="3">Please use this space to tell us more about your needs. Our team can craft custom solutions around reskilling, upskilling, onboarding, hiring, and bechmarking your talent</textarea>
-
-//                         <button type="submit" class="yellowBlack btnBrainster padSubmit">Регистрирај
-//                             се</button>
-//                     </form>
-
-//                 </div>
-
-//             </div>
-
-//         </div>
-//         <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs">
-//             <ul class="list-inline">
-//                 <li>
-//                     <a href="https://www.brainster.io/business" target="_blank">
-//                         <button class="yellowButton btnBrainster">Обуки за компании</button>
-//                     </a>
-//                 </li>
-//                 <li>
-//                     <a href="https://www.brainster.io/business" target="_blank">
-//                         <button class="yellowBlack btnBrainster">Вработи наши студенти</button>
-//                     </a>
-//                 </li>
-
-//             </ul>
-//         </div>
-//     </div>
-
-// </div>`;
-// };
-// reg.innerHTML = registration;
