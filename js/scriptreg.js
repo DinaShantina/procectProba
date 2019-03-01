@@ -1,103 +1,105 @@
 
 var targetA = window.localStorage.getItem('targetA');
+console.log(targetA)
+var reg = document.querySelector('.reg');
 // var registration = "";
 
 switch (targetA) {
-    case 'reg':
-        var reg = document.querySelector('.reg');
+    case 'reg1':
         reg.innerHTML += `<div class="container-fluid">
-            <div class="row blackBg">
-
-                <div class="col-md-10 col-md-offset-2 col-sm-11 col-sm-offest-1 col-xs-10 col-xs-offset-1">
-
-                    <div class="purpleContactBg">
-                        <div class="row">
-
-                            <div
-                                class="col-md-6 col-md-offset-0 col-sm-11 col-sm-offset-0 col-xs-12 col-xs-offeset-0 TextBgRegistration">
-                                <h2 class="headerYellow text-left">Регистрирај Се</h2>
-                                <form>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="inputFirstName">Име</label>
-                                        <input type="text" class="form-control" id="inputFirstName" placeholder="Име">
+        <div class="row blackBg">
+    
+            <div class="col-md-10 col-md-offset-2 col-sm-11 col-sm-offest-1 col-xs-10 col-xs-offset-1">
+    
+                <div class="purpleContactBg">
+                    <div class="row">
+    
+                        <div
+                            class="col-md-6 col-md-offset-0 col-sm-11 col-sm-offset-0 col-xs-12 col-xs-offeset-0 TextBgRegistration">
+                            <h2 class="textYellow headerYellow text-left">Регистрирај Се</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label class="sr-only" for="inputFirstName">Име</label>
+                                    <input type="text" class="form-control" id="inputFirstName" placeholder="Име">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="inputLastName">Презиме</label>
+                                    <input type="text" class="form-control" id="inputLastName"
+                                        placeholder="Презиме">
+                                </div>
+    
+                                <div class="form-group">
+                                    <label class="sr-only" for="inputCompany">Компанија</label>
+                                    <input type="text" class="form-control" id="inputCompany"
+                                        placeholder="Компанија">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="inputEmail">Број</label>
+                                    <input type="number" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Број">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="inputEmail">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Email">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p class="pTextForm">Број на вработени</p>
+                                        <select class="form-control">
+                                            <option>2-10</option>
+                                            <option>11-50</option>
+                                            <option>51-200</option>
+                                            <option>200+</option>
+                                        </select>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="inputLastName">Презиме</label>
-                                        <input type="text" class="form-control" id="inputLastName"
-                                            placeholder="Презиме">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p class="pTextForm">Сектор</p>
+                                        <select class="form-control">
+                                            <option>Човечки ресурси</option>
+                                            <option>Маркетинг</option>
+                                            <option>Продукт</option>
+                                            <option>Продажба</option>
+                                            <option>CEO</option>
+                                            <option>друго</option>
+                                        </select>
                                     </div>
-
-                                    <div class="form-group">
-                                        <label class="sr-only" for="inputCompany">Компанија</label>
-                                        <input type="text" class="form-control" id="inputCompany"
-                                            placeholder="Компанија">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="inputEmail">Број</label>
-                                        <input type="number" class="form-control" id="exampleInputPassword1"
-                                            placeholder="Број">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="inputEmail">Email</label>
-                                        <input type="email" class="form-control" id="exampleInputPassword1"
-                                            placeholder="Email">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <p class="pTextForm">Број на вработени</p>
-                                            <select class="form-control">
-                                                <option>2-10</option>
-                                                <option>11-50</option>
-                                                <option>51-200</option>
-                                                <option>200+</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <p class="pTextForm">Сектор</p>
-                                            <select class="form-control">
-                                                <option>Човечки ресурси</option>
-                                                <option>Маркетинг</option>
-                                                <option>Продукт</option>
-                                                <option>Продажба</option>
-                                                <option>CEO</option>
-                                                <option>друго</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <textarea maxlength="300" class="form-control text-center"
-                                        rows="3">Please use this space to tell us more about your needs. Our team can craft custom solutions around reskilling, upskilling, onboarding, hiring, and bechmarking your talent</textarea>
-
-                                    <button type="submit" class="yellowBlack btnBrainster padSubmit">Регистрирај
-                                        се</button>
-                                </form>
-
-                            </div>
-
+                                </div>
+                                <textarea maxlength="300" class="form-control"
+                                    rows="3" placeholder="Ве молиме користете го овој простор за да ни кажете повеќе за вашите потреби. Нашиот тим може да направат сопствени решенија околу реквизирањето, подигнување, вградување, 
+                                    ангажирање и споредување на вашиот талент."></textarea>
+    
+                                <button type="submit" class="yellowBlack btnBrainster padSubmit">Регистрирај
+                                    се</button>
+                            </form>
+    
                         </div>
-
+    
                     </div>
-                    <div class="buttonS flexA hidden-lg hidden-md hidden-sm visible-xs">
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.brainster.io/business" target="_blank">
-                                    <button class="yellowButton btnBrainster">Обуки за компании</button>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.brainster.io/business" target="_blank">
-                                    <button class="yellowBlack btnBrainster">Вработи наши студенти</button>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
+    
                 </div>
+                <div class="buttonSA flexA hidden-lg hidden-md hidden-sm visible-xs">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.brainster.io/business" target="_blank">
+                                <button class="yellowButton btnBrainster">Обуки за компании</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.brainster.io/business" target="_blank">
+                                <button class="yellowBlack btnBrainster">Вработи наши студенти</button>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+        </div>`
 
-            </div>`
-        // reg.innerHTML = registration;
         break;
 
-    case 'sign':
+    case 'sign1':
         // var sign = document.getElementById('sign');
         reg.innerHTML += ` <div class="container-fluid bgSignUp">
         <div class="row">
@@ -157,7 +159,7 @@ switch (targetA) {
     </div>`
         sign.innerHTML = registration;
         break;
-    case 'contact':
+    case 'contact1':
         // var contact = document.getElementById('contact');
         reg.innerHTML += `<div class="container-fluid">
             <div class="row contactBg">
@@ -182,18 +184,18 @@ switch (targetA) {
         </div>`
         // contact.innerHTML = registration;
         break;
-    case 'about':
-        // var about = document.getElementById('about');
+    case 'about1':
+
         reg.innerHTML += ` <div class="container-fluid">
         <div class="row">
-
+        
             <div class="col-lg-12 col-md-12 col-sm-12 bgAbout">
                 <div class="col-md-2">
-                    <img class="imgAbout img img-responsive hidden-sm hidden-xs" src="images/aboutus.png">
+                    <img class="imgAbout img img-responsive hidden-sm hidden-xs" src="images/aboutus.png" alt="Brainster Logo">
                 </div>
-
+        
                 <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 TextBgAbout">
-
+        
                     <h2 class="tileH2">Ајде заедно да го промениме начинот на кој учиме!
                     </h2>
                     <br>
@@ -202,15 +204,15 @@ switch (targetA) {
                         потреба да стекнува
                         нови
                         знаења. <br>
-
+        
                         Затоа гo создадовме <span class="spanPurple"><a href="#">Brainster.</a></span><br>
-
+        
                         Brainster е платформа за офлајн курсеви каде ќе можете да предавате и да посетувате
                         курсеви на
                         најразлични теми - од курсеви за изработка на мобилни апликации, до курсеви за улична
                         фотографија.
                     </p>
-
+        
                     <h2 class="tileH2">Нашата визија е да го претвориме целиот град во
                         универзитет,
                         секој
@@ -227,7 +229,7 @@ switch (targetA) {
                         вмрежите
                         со луѓе со слични интереси, да креирате, да го споделувате Вашето знаење и да учите од
                         другите.<br>
-
+        
                         Нашата прва станица е Скопје. Очекувајте нѐ во октомври на различни кул локации како
                         co-working
                         простории, работилници, акселератори, па дури и во кафулиња.</p><br>
@@ -236,10 +238,10 @@ switch (targetA) {
                     </p>
                 </div>
             </div>
-
+        
         </div>
-    </div>`
-        // about.innerHTML = registration;
+        </div>`
+
         break;
     default:
 
@@ -249,17 +251,17 @@ function myFunction(event) {
     console.log("TUKA SME: ", event.targetA);
 }
 
-document.getElementById("reg1").addEventListener('click', function (event) {
-    window.localStorage.setItem("targetA", "reg1");
-}, false);
+// document.getElementById("reg1").addEventListener('click', function (event) {
+//     window.localStorage.setItem("targetA", "reg1");
+// }, false);
 
-document.getElementById("sign1").addEventListener('click', function (event) {
-    window.localStorage.setItem("targetA", "sign1");
-}, false);
-document.getElementById("contact1").addEventListener('click', function (event) {
-    window.localStorage.setItem("targetA", "contact1");
-}, false);
+// document.getElementById("sign1").addEventListener('click', function (event) {
+//     window.localStorage.setItem("targetA", "sign1");
+// }, false);
+// document.getElementById("contact1").addEventListener('click', function (event) {
+//     window.localStorage.setItem("targetA", "contact1");
+// }, false);
 
-document.getElementById("about1").addEventListener('click', function (event) {
-    window.localStorage.setItem("targetA", "about1");
-}, false);
+// document.getElementById("about1").addEventListener('click', function (event) {
+//     window.localStorage.setItem("targetA", "about1");
+// }, false);

@@ -38,6 +38,11 @@ body {
     white-space: nowrap;
 }
 
+.btnBrainster:hover {
+    background-color: white;
+    color: black;
+}
+
 .yellowBlack {
     background-color: black;
     color: rgb(247, 204, 14);
@@ -369,7 +374,7 @@ body {
 .purpleContactBg {
     margin-top: 5%;
     background-color: transparent;
-    padding: 5.8% 0 5.8% 0;
+    padding: 5.6% 0 5.6% 0;
 }
 
 .form-control {
@@ -436,7 +441,7 @@ form {
 .TextBgAbout {
     margin-top: 3%;
     background-color: rgba(247, 204, 14, 0.8);
-    padding: 4.15% 3% 4.15% 3%;
+    padding: 4.10% 3% 4.15% 3%;
 }
 
 .spanPurple a:hover {
@@ -476,6 +481,10 @@ form {
 
 .links {
     width: 25%;
+}
+
+.list li a:hover, .links a:hover {
+    color: white;
 }
 
 .list {
@@ -526,7 +535,7 @@ form {
 .contactForm {
     margin-top: 15%;
     background-color: rgba(247, 204, 14, 0.6);
-    padding: 26% 5% 37% 5%;
+    padding: 27.1% 5% 35.8% 5%;
 }
 
 .bgText {
@@ -540,6 +549,10 @@ form {
 .imgFlex {
     margin: 0 auto;
     width: 45%;
+}
+
+.marginNav {
+    margin-top: -1%;
 }
 
 /* <-----------SINGLE CARD 1 --------> */
@@ -685,7 +698,7 @@ form {
 }
 
 .signForm {
-    margin: 47.3% 0 38% 0;
+    margin: 45.7% 0 38% 0;
     padding: 5%;
     background-color: white;
     border-radius: 10px;
@@ -715,12 +728,24 @@ ul {
     font-size: 135%;
 }
 
+.font:hover {
+    background-color: #431781;
+    color: white;
+}
+
+.checkBox {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1602px) {
     .contactForm {
         padding: 32% 5% 32% 5%;
     }
     .purpleContactBg {
         padding: 4.8% 0 3.8% 0;
+    }
+    a {
+        cursor: pointer;
     }
 }
 
@@ -778,7 +803,7 @@ ul {
     }
     /* SIGN IN */
     .signForm {
-        margin: 51.4% 0;
+        margin: 53.4% 0
     }
     /* SINGLE PAGE */
     .mainPhotoSingle {
@@ -790,6 +815,9 @@ ul {
     }
     .contactForm {
         padding: 34% 5% 46.4% 5%;
+    }
+    a {
+        cursor: pointer;
     }
 }
 
@@ -807,13 +835,25 @@ ul {
         padding: 55% 5% 50.4% 5%;
     }
     .purpleContactBg {
-        padding: 6.4% 0;
+        padding: 19.4% 0;
+    }
+    a {
+        cursor: pointer;
+    }
+    .contactForm {
+        padding: 65% 5% 56.4% 5%;
+    }
+    .signForm {
+        margin: 67% 0;
     }
 }
 
 @media screen and (max-width: 1132px) {
     .purpleContactBg {
-        padding: 8.25% 0;
+        padding: 18.25% 0;
+    }
+    a {
+        cursor: pointer;
     }
 }
 
@@ -821,11 +861,17 @@ ul {
     .purpleContactBg {
         padding: 8.25% 0;
     }
+    a {
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 1091px) {
     .purpleContactBg {
         padding: 8.25% 0;
+    }
+    a {
+        cursor: pointer;
     }
 }
 
@@ -873,6 +919,9 @@ ul {
     .iconProperties {
         height: 45px;
         width: 45px;
+    }
+    a {
+        cursor: pointer;
     }
 }
 
@@ -1059,6 +1108,9 @@ ul {
     }
     .mainHeaderCard {
         font-size: 200%;
+    }
+    .contactForm {
+        padding: 27.2% 5% 27.2% 5%;
     }
 }
 
